@@ -29,18 +29,19 @@ export function Header() {
               <a href="https://www.linkedin.com/in/mahmoud-muhammad-sani-680752223/" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://twitter.com/dev_el_mahmoud" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+              <a href="https://www.facebook.com/mahmoud.muhammadsani.9" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                 <Facebook className="w-5 h-5" />
               </a>
               <a href="https://www.instagram.com/dev_el_mahmoud" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://www.facebook.com/mahmoud.muhammadsani.9" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+              <a href="https://twitter.com/dev_el_mahmoud" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                 <Twitter className="w-5 h-5" />
               </a>
               <a href="mailto:your.sanimahmoud10@gmail.com" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                 <Mail className="w-5 h-5" />
               </a>
+              
               <ThemeToggle />
             </div>
           </div>
