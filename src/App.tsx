@@ -140,7 +140,7 @@ function App() {
           {/* Contact Section */}
           <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Say Something to Dev <Rocket className='inline-block' /> </h2>
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Send Message to Dev <Rocket className='inline-block' /> </h2>
               <ContactForm />
             </div>
           </section>
