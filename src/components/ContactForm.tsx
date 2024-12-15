@@ -12,11 +12,11 @@ export function ContactForm() {
     try {
       await emailjs.sendForm(
         'service_vnevinq',
-        'template_5amlyb8',
+        'template_2f7mqbe',
         e.currentTarget,
         'ZZaPGTRWLTI1Lesl4'
       );
-      toast.success('Message sent successfully!');
+      toast.success('Message sent to Dev successfully, Thank you for contacting us!');
       (e.target as HTMLFormElement).reset();
     } catch (error) {
       toast.error('Failed to send message. Please try again.');
@@ -36,7 +36,7 @@ export function ContactForm() {
           id="name"
           name="name"
           required
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+          className="p-2 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
         />
       </div>
       <div>
@@ -48,7 +48,7 @@ export function ContactForm() {
           id="email"
           name="email"
           required
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+          className="p-2 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
         />
       </div>
       <div>

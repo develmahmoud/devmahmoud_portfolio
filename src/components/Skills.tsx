@@ -6,7 +6,8 @@ import {
   Github,
   Palette,
   Binary,
-  Terminal
+  Terminal,
+  
 } from 'lucide-react';
 import { SkillCard } from './SkillCard';
 
