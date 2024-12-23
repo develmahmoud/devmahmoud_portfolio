@@ -131,13 +131,13 @@ function App() {
               </div>
             </div>
           </section>
-          <section id='achievements' className='py-20 bg-white dark:bg-gray-800 transition-colors duration-300'>
+          <section id='achievements' className='py-0 bg-white dark:bg-gray-800 transition-colors duration-300'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center"> My Achievements and Awards <Trophy className='inline-block' /></h2>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white  text-center"> My Achievements and Awards <Trophy className='inline-block' /></h2>
                 <Achievements />
                 </div>
           </section>
-          <section id='certifications' className='py-20 bg-white dark:bg-gray-800 transition-colors duration-300'>
+          <section id='certifications' className=' bg-white dark:bg-gray-800 transition-colors duration-300'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center"> My Professional Certifications <GraduationCap className='inline-block' /></h2>
                 <Certifications />

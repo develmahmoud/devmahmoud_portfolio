@@ -36,7 +36,7 @@ const Certificates: CertData[] = [
   
 const Certifications: React.FC = () => {
   return (
-    <div className='p-4'>
+    <div className='overflow-x-auto p-4'>
         <Table data={Certificates} columns={columns}></Table>
     </div>
   )
