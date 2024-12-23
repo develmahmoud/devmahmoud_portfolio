@@ -11,7 +11,7 @@ export function Header() {
           <h1 className="text-xl font-bold text-gray-900 dark:text-white">Dev <Rocket style={{display: 'inline-block'}} /></h1>
           <div className="flex items-center space-x-4">
             <nav className="hidden md:flex space-x-4">
-              {['about', 'projects', 'contact'].map((section) => (
+              {['about', 'projects', 'contact', 'certifications'].map((section) => (
                 <a
                   key={section}
                   href={`#${section}`}
