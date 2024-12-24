@@ -6,7 +6,7 @@ import { SocialCard } from './SocialCard';
 
 const socials = [
   { name: 'Facebook', icon: Facebook, url: "https://www.facebook.com/mahmoud.muhammadsani.9" },
-  { name: 'LinkedIn', icon: Linkedin, url: "https://twitter.com/dev_el_mahmoud" },
+  { name: 'LinkedIn', icon: Linkedin, url: "https://www.linkedin.com/in/mahmoud-muhammad-sani-680752223/" },
   { name: 'instagram', icon: Instagram, url: "https://www.instagram.com/dev_el_mahmoud" },
   { name: 'Twitter', icon: X, url: "https://twitter.com/dev_el_mahmoud" },
   { name: 'Gmail', icon: Mail, url: "mailto:sanimahmoud10@gmail.com" },
