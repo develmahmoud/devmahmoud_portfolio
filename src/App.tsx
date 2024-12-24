@@ -17,6 +17,7 @@ import { Trophy, GraduationCap } from 'lucide-react';
 import Achievements from './components/Achievements';
 import Certifications from './components/Certifications';
 import { Rocket, GlobeIcon } from 'lucide-react';
+import BackToTopButton from './components/BackToTop';
 function App() {
   const projects = [
     {
@@ -164,6 +165,8 @@ function App() {
             <p>© 2024 DevMahmoud. All rights reserved.</p>
           </div>
         </footer>
+
+        <BackToTopButton />
       </div>
     </ThemeProvider>
   );
