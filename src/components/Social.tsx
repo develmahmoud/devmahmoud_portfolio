@@ -1,4 +1,4 @@
-
+import { Github } from 'lucide-react';
 
 import { Facebook, Linkedin, Instagram, X, Mail } from 'lucide-react';
 import { FaWhatsapp, FaDiscord } from 'react-icons/fa';
