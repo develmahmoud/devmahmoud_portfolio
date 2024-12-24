@@ -18,7 +18,7 @@ const achievementsData: Achievement[] = [
 const columns = [
     {header: 'ID', accessor: 'id'},
     { header: 'Name', accessor: 'name' },
-    { header: 'Institution', accessor: 'inst' },
+    { header: 'Institution', accessor: 'institution' },
     { header: 'Date Year', accessor: 'year' }
 ];
 const Achievements: React.FC = () => {

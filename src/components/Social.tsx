@@ -1,14 +1,4 @@
-import {
-  Code2,
-  Blocks,
-  FileCode,
-  Database,
-  Github,
-  Palette,
-  Binary,
-  Terminal,
-  
-} from 'lucide-react';
+
 
 import { Facebook, Linkedin, Instagram, X, Mail } from 'lucide-react';
 import { FaWhatsapp, FaDiscord } from 'react-icons/fa';
@@ -21,7 +11,7 @@ const socials = [
   { name: 'Twitter', icon: X, url: "https://twitter.com/dev_el_mahmoud" },
   { name: 'Gmail', icon: Mail, url: "mailto:sanimahmoud10@gmail.com" },
   { name: 'GitHub', icon: Github, url: "https://github.com/develmahmoud" },
-  { name: 'WhatsApp', icon: FaWhatsapp, url: "https://https://wa.me/+2348104003394" },
+  { name: 'WhatsApp', icon: FaWhatsapp, url: "https://wa.me/+2348104003394" },
   { name: 'Discord', icon: FaDiscord, url: "https://" },
 ];
 
