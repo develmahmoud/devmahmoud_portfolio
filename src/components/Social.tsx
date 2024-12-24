@@ -11,7 +11,7 @@ const socials = [
   { name: 'Twitter', icon: X, url: "https://twitter.com/dev_el_mahmoud" },
   { name: 'Gmail', icon: Mail, url: "mailto:sanimahmoud10@gmail.com" },
   { name: 'GitHub', icon: Github, url: "https://github.com/develmahmoud" },
-  { name: 'WhatsApp', icon: FaWhatsapp, url: "https://wa.me/+2348104003394" },
+  { name: 'WhatsApp', icon: FaWhatsapp, url: "https://wa.me/+2348105003394" },
   { name: 'Discord', icon: FaDiscord, url: "https://" },
 ];
 
