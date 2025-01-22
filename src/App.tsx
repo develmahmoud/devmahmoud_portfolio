@@ -7,7 +7,8 @@ import { Skills } from './components/Skills';
 import { Social } from './components/Social';
 import { smoothScroll } from './utils/smoothScroll';
 import Typewriter from './components/Typewriter/Typewriter';
-import DevMudi from "./assets/images/DevMudi.jpeg";
+// import DevMudi from "./assets/images/DevMudi.jpeg";
+import developer from "./assets/images/developer.jpeg";
 import Edstream from "./assets/images/Edstream.jpeg";
 import ILS from "./assets/images/ILS.jpeg";
 import Scholarship from "./assets/images/Scholarship.jpeg";
@@ -16,7 +17,7 @@ import { MdWavingHand } from 'react-icons/md';
 import { Trophy, GraduationCap } from 'lucide-react';
 import Achievements from './components/Achievements';
 import Certifications from './components/Certifications';
-import { Rocket, GlobeIcon } from 'lucide-react';
+import { Rocket } from 'lucide-react';
 import BackToTopButton from './components/BackToTop';
 function App() {
   const projects = [
@@ -105,7 +106,7 @@ function App() {
                       <p className='text-gray-600 dark:text-gray-300 text-lg leading-relaxed text-justify'>Let’s connect and make something amazing together!</p>
                     </div>
                     <div className="flex-1 md:p-10 pt-20">
-                        <img src={DevMudi} 
+                        <img src={developer} 
                         className='rounded-2xl transition-transform duration-300 ease-in-out 
                         transform hover:scale-110 cursor-pointer' />
                     </div>
