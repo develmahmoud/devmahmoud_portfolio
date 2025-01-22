@@ -66,7 +66,7 @@ function App() {
           bg-fixed bg-cover text-white">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 sm:mt-20 mt-20">
             <Typewriter 
-              text="Welcome to Dev Mahmoud's Portfolio, Connect with me let's build incredibly amazing things together!"
+              text="Explore the portfolio of Dev Mahmoud, Let’s connect and create something extraordinary!"
               speed={200}
               className="text-4xl sm:text-6xl"
               onComplete={() => console.log('Typing complete')}
@@ -81,6 +81,7 @@ function App() {
               </a>
               </div>
             </div>
+            
           </section>
 
           {/* About Section */}
@@ -104,6 +105,8 @@ function App() {
                       Beyond coding, I enjoy learning about new trends in tech, sharing knowledge, and mentoring others to help them grow in their careers. Let’s work together and bring your ideas to life!🌟
                       </p>
                       <p className='text-gray-600 dark:text-gray-300 text-lg leading-relaxed text-justify'>Let’s connect and make something amazing together!</p>
+                      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="mahmoud-muhammad-sani-680752223" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ng.linkedin.com/in/mahmoud-muhammad-sani-680752223?trk=profile-badge">Mahmoud Muhammad Sani</a></div>
+              
                     </div>
                     <div className="flex-1 md:p-10 pt-20">
                         <img src={developer} 
