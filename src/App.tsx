@@ -7,8 +7,8 @@ import { Skills } from './components/Skills';
 import { Social } from './components/Social';
 import { smoothScroll } from './utils/smoothScroll';
 import Typewriter from './components/Typewriter/Typewriter';
-// import DevMudi from "./assets/images/DevMudi.jpeg";
-import developer from "./assets/images/developer.jpeg";
+
+import Mahmoud from "./assets/images/Mahmoud.jpeg";
 import Edstream from "./assets/images/Edstream.jpeg";
 import ILS from "./assets/images/ILS.jpeg";
 import Scholarship from "./assets/images/Scholarship.jpeg";
@@ -109,7 +109,7 @@ function App() {
               
                     </div>
                     <div className="flex-1 md:p-10 pt-20">
-                        <img src={developer} 
+                        <img src={Mahmoud} 
                         className='rounded-2xl transition-transform duration-300 ease-in-out 
                         transform hover:scale-110 cursor-pointer' />
                     </div>
