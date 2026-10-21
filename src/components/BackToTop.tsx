@@ -30,7 +30,7 @@ const BackToTopButton: React.FC = () => {
   return (
     <div
       className={classNames(
-        'fixed bottom-4 right-4 p-4 bg-blue-500 text-white rounded-full shadow-lg transition-opacity duration-300',
+        'fixed bottom-4 right-4 p-4 bg-gold-500 text-white rounded-full shadow-lg transition-opacity duration-300',
         {
           'opacity-0': !isVisible,
           'opacity-100': isVisible,

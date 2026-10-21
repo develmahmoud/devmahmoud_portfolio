@@ -47,7 +47,7 @@ export function SocialCard({ icon: Icon, url, name, delay = 0 }: SocialCardProps
         "hover:transform hover:scale-105 transition-transform"
       )}
     >
-      <Icon className="w-12 h-12 text-blue-600 dark:text-blue-400 mb-4" />
+      <Icon className="w-12 h-12 text-gold-600 dark:text-gold-400 mb-4" />
       <h3 className="text-lg font-medium text-gray-900 dark:text-white">{name}</h3>
     </div>
     </a>
