@@ -20,7 +20,7 @@ function App() {
         <Header />
 
         <main className="pt-16">
-          {/* <Hero /> */}
+          <Hero />
           <About />
           <Skills />
           <Projects />
