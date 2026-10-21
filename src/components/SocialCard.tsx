@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react';
-import { LucideIcon } from 'lucide-react';
 import { cn } from '../utils/cn';
+import type { IconComponent } from '../types/content';
 
 interface SocialCardProps {
-  icon: LucideIcon;
+  icon: IconComponent;
   name: string;
   delay?: number;
   url: string;

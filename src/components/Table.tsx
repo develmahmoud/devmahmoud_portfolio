@@ -18,57 +18,62 @@ const Table = <T,>({ data, columns }: TableProps<T>) => {
   const displayedData = data.slice((currentPage - 1) * rowsPerPage, currentPage * rowsPerPage);
 
   return (
-    <div className="p-4">
-      <table className="min-w-full dark:bg-gray-900  border border-gray-200 rounded-lg shadow">
-        <thead>
-          <tr className="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white uppercase text-sm leading-normal">
-            {columns.map((column) => (
-              <th key={column.header} className="py-3 px-6 text-left">
-                {column.header}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody className="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white text-sm font-light">
-          {displayedData.map((row, rowIndex) => (
-            <tr key={rowIndex} className="border-b border-gray-200 hover:bg-gray-100 hover:text-gray-900 hover:font-semibold hover:cursor-pointer">
+    <div className="p-2 md:p-4">
+      <div className="overflow-x-auto">
+        <table className="min-w-full text-left">
+          <thead>
+            <tr className="border-b border-navy-900/10 text-xs uppercase tracking-wider text-gold-600 dark:border-white/10 dark:text-gold">
               {columns.map((column) => (
-                <td key={column.header} className="py-3 px-6 text-left whitespace-nowrap">
-                  {(row[column.accessor] as unknown) as React.ReactNode}
-                </td>
+                <th key={column.header} className="px-4 py-3 font-semibold">
+                  {column.header}
+                </th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
-      <div className="flex justify-between items-center mt-4">
+          </thead>
+          <tbody className="text-sm text-navy-900 dark:text-white/80">
+            {displayedData.map((row, rowIndex) => (
+              <tr
+                key={rowIndex}
+                className="border-b border-navy-900/5 transition hover:bg-gold/10 dark:border-white/5"
+              >
+                {columns.map((column) => (
+                  <td key={column.header} className="whitespace-nowrap px-4 py-3">
+                    {(row[column.accessor] as unknown) as React.ReactNode}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <select
           value={rowsPerPage}
           onChange={handleRowsPerPageChange}
-          className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+          className="rounded-full border border-navy-900/10 bg-transparent px-3 py-2 text-sm dark:border-white/15 dark:text-white"
         >
           <option value={5}>5</option>
           <option value={10}>10</option>
           <option value={20}>20</option>
         </select>
-        <div>
+        <div className="flex gap-2">
           <button
             disabled={currentPage === 1}
             onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-            className="px-4 py-2 bg-blue-500 text-white rounded-md mr-2 disabled:opacity-50"
+            className="rounded-full bg-gold px-4 py-2 text-sm font-semibold text-navy-950 disabled:opacity-40"
           >
             Previous
           </button>
           <button
             disabled={currentPage === totalPages}
             onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
-            className="px-4 py-2 bg-blue-500 text-white rounded-md disabled:opacity-50"
+            className="rounded-full bg-gold px-4 py-2 text-sm font-semibold text-navy-950 disabled:opacity-40"
           >
             Next
           </button>
         </div>
       </div>
-      <p className="text-gray-900 dark:text-gray-50 font-semibold mt-2">
+      <p className="mt-2 text-sm text-navy-900/60 dark:text-white/60">
         Page {currentPage} of {totalPages}
       </p>
     </div>

@@ -11,7 +11,7 @@ export function ContactForm() {
 
     try {
       await emailjs.sendForm(
-        'service_vnevinq',
+        'service_htb2goi',
         'template_2f7mqbe',
         e.currentTarget,
         'ZZaPGTRWLTI1Lesl4'
