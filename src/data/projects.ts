@@ -3,11 +3,19 @@ import ILS from '../assets/images/ILS.jpeg';
 import Scholarship from '../assets/images/Scholarship.jpeg';
 import MyAttend from '../assets/images/Attendance.jpeg';
 import type { Project } from '../types/content';
-
+import NurKocaeli from '../assets/images/nurkocaeli.png';
 export const projects: Project[] = [
   {
+    title: 'Nur Kocaeli Application',
+    description: 'A web application for Risale - i Nur, a religious organization in Turkey',
+    image: NurKocaeli,
+    technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Typescript', 'Express.js'],
+    githubUrl: 'https://github.com',
+    liveUrl: 'https://nurkocaeli.vercel.app/',
+  },
+  {
     title: 'Edstream',
-    description: 'Frontend Developer at Edstream, A robust School Management Software',
+    description: 'Smart School Management Software',
     image: Edstream,
     technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Typescript'],
     githubUrl: 'https://github.com',
@@ -27,11 +35,11 @@ export const projects: Project[] = [
     technologies: ['React', 'Material-UI', 'Typescript', 'Tailwind'],
     githubUrl: 'https://github.com',
   },
-  {
-    title: 'MyAttend',
-    description: 'Smart Attendance Management Software',
-    image: MyAttend,
-    technologies: ['PHP', 'JavaScript', 'Bootstrap', 'JQuery'],
-    githubUrl: 'https://github.com',
-  },
+  // {
+  //   title: 'MyAttend',
+  //   description: 'Smart Attendance Management Software',
+  //   image: MyAttend,
+  //   technologies: ['PHP', 'JavaScript', 'Bootstrap', 'JQuery'],
+  //   githubUrl: 'https://github.com',
+  // },
 ];

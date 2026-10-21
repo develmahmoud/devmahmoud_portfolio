@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone, MessageCircle  } from 'lucide-react';
 import { ContactForm } from './ContactForm';
 import { contact } from '../data/site';
 import { SectionHeading } from './SectionHeading';
@@ -7,6 +7,7 @@ const details = [
   { label: 'Call me', value: contact.phone, href: `tel:${contact.phone.replace(/\s/g, '')}`, icon: Phone },
   { label: 'Email', value: contact.email, href: `mailto:${contact.email}`, icon: Mail },
   { label: 'Location', value: contact.location, href: undefined, icon: MapPin },
+  { label: 'WhatsApp', value: contact.whatsapp, href: `https://wa.me/${contact.whatsapp.replace(/\s/g, '')}`, icon: MessageCircle },
 ];
 
 export function Contact() {

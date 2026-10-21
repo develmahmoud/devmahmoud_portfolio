@@ -54,8 +54,9 @@ export const contact = {
   kicker: 'Contact',
   heading: 'Get in Touch',
   email: 'sanimahmoud10@gmail.com',
-  phone: '+234 810 500 3394',
-  location: 'Nigeria',
+  phone: '+905016484900, +234 810 500 3394',
+  location: 'Kocaeli, Turkey',
+  whatsapp: '+905016484900',
 };
 
 export const footer = {
