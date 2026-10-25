@@ -1,5 +1,6 @@
 import type { NavItem } from '../types/content';
 import portrait from '../assets/images/Mahmoud.jpeg';
+import Suit from '../assets/images/suit.jpeg';
 
 export const navItems: NavItem[] = [
   { id: 'home', label: 'Home' },
@@ -11,8 +12,8 @@ export const navItems: NavItem[] = [
 
 export const hero = {
   greeting: 'Hi, I am',
-  name: 'Mahmoud Sani',
-  role: 'Software Engineer',
+  name: 'Dev Mahmoud',
+  role: ['Software Engineer', 'Web Developer', 'Mobile Developer'],
   headline: 'Crafting Seamless Digital',
   highlight: 'Experiences',
   description:
@@ -23,13 +24,13 @@ export const hero = {
   secondaryLabel: 'Portfolio',
   chips: [
     { label: "Hi, I'm Mahmoud", align: 'left' as const },
-    { label: 'Best Graduating Student · 2024', align: 'right' as const },
+    { label: 'Founder SpaceSoftwares', align: 'right' as const },
   ],
 };
 
 export const stats = [
-  { value: '2024', label: 'Best Graduating Student' },
-  { value: '16+', label: 'Professional Certifications' },
+  { value: '2019 - Date', label: 'Built 20+ Business Solutions' },
+  { value: '30+', label: 'Professional Certifications' },
   { value: 'Open', label: 'Available for projects' },
 ];
 
@@ -48,6 +49,7 @@ export const about = {
   linkedInVanity: 'mahmoud-muhammad-sani-680752223',
   photo: portrait,
   photoAlt: 'Mahmoud Muhammad Sani',
+  Picture2: Suit,
 };
 
 export const contact = {

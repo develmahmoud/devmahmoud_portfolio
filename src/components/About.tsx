@@ -9,9 +9,9 @@ export function About() {
     <section id="about" className="section-shell bg-white dark:bg-navy-900">
       <div className="section-container grid items-center gap-12 md:grid-cols-2">
         <div className="relative mx-auto w-full max-w-md">
-          <div className="absolute -inset-3 rounded-[28px] border border-gold/70" />
+          <div className="absolute -inset-3 rounded-[28px]" />
           <img
-            src={about.photo}
+            src={about.Picture2}
             alt={about.photoAlt}
             className="relative z-10 w-full rounded-[24px] object-cover object-top shadow-xl"
           />

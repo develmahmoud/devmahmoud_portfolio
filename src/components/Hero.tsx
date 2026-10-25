@@ -1,11 +1,11 @@
-import { ArrowUpRight, MessageCircle } from 'lucide-react';
-import { Award, Briefcase, Trophy } from 'lucide-react';
+import { ArrowUpRight, FolderKanban, MessageCircle } from 'lucide-react';
+import { Award, Briefcase, Lightbulb } from 'lucide-react';
 import Typewriter from './Typewriter/Typewriter';
 import { about, hero, stats } from '../data/site';
 import { headerSocials } from '../data/socials';
 import { smoothScroll } from '../utils/smoothScroll';
 
-const statIcons = [Trophy, Award, Briefcase];
+const statIcons = [Lightbulb, Award, Briefcase];
 
 export function Hero() {
   return (
@@ -18,7 +18,7 @@ export function Hero() {
           <h1 className="mt-2 font-display text-4xl font-extrabold tracking-tight text-navy-950 dark:text-white sm:text-6xl">
             {hero.name}
           </h1>
-          <p className="mt-3 text-lg font-medium text-navy-900/70 dark:text-white/70">{hero.role}</p>
+          <p className="mt-3 text-lg font-medium text-navy-900/70 dark:text-white/70">{hero.role.join(', ')}</p>
           <h2 className="mt-6 max-w-xl font-display text-3xl font-bold leading-tight text-navy-950 dark:text-white sm:text-5xl">
             {hero.headline} <span className="text-gold-600 dark:text-gold">{hero.highlight}</span>
           </h2>
